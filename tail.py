@@ -1,6 +1,7 @@
 """Implementing the tail shell command in python."""
 
 import sys
+#imports "sys" library
 from lib.helper import tail, readfile
 
 TEXT = None

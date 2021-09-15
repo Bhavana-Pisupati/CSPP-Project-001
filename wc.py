@@ -1,7 +1,7 @@
 """Implementing the wc shell command in python."""
 
 import sys
-
+#imports "sys" library
 from lib.helper import wc, readfile
 
 TEXT = None

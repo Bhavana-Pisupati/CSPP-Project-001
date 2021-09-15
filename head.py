@@ -1,6 +1,7 @@
 """Implementing the head shell command in python."""
 
 import sys
+#imports "sys" library
 from lib.helper import head, readfile
 
 TEXT = None
