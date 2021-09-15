@@ -1,7 +1,7 @@
 """Implementing the tac shell command in python."""
 
 import sys
-#imports "sys" library using "import keyword"
+#imports "sys" library using "import" keyword
 from lib.helper import tac, readfile
 #imports defined functions "tac", "readfile" from "lib.helper" using keywords "import" and "from"
 TEXT = None
@@ -21,4 +21,4 @@ if ARG_CNT > 1:
     print(sys.argv[0], "doesn't handle more than one argument")
 #if variable "ARG_CNT" is greater than integer "1" , print the name of the current python script followed by  "doesn't handle more than one argument"
 print(tac(TEXT))
-#execute tac function on the argument "TEXT" and print the return from the function
+#execute "tac" function on the argument "TEXT" and print the return from the function
