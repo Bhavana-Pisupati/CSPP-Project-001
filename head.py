@@ -3,7 +3,7 @@
 import sys
 #imports "sys" library
 from lib.helper import head, readfile
-
+#imports defined functions "head", "readfile" from "lib.helper"
 TEXT = None
 ARG_CNT = len(sys.argv) - 1
 
