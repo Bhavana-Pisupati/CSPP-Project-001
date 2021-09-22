@@ -25,8 +25,8 @@ print(evenSum(10))
 def isPrime(num):
 	for i in range(2,num):
 		if num % i == 0:
-		    return "false"
-	return "true"
+		    return False
+	return True
 print(isPrime(5))
 # output: True
 
@@ -45,8 +45,8 @@ print(s[7:l:1],s[0:6:1])
 def contains(s1, s2):
 	for i in range(len(s1)):
 		if s1[i:i+len(s2)] == s2:
-			return "true"
-	return "false"
+			return True
+	return False
 
 print(contains("Hello world", "world"))
 
